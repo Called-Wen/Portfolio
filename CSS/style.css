@@ -263,9 +263,9 @@ a {
     top: 0;
     color: transparent;
     font-size: 150px;
-    opacity: 1;
+    opacity: 0.1;
     line-height: 0;
-    -webkit-text-stroke: 0.3px #000;
+    -webkit-text-stroke: 2px #000;
     user-select: none;
 
 }
@@ -281,7 +281,6 @@ a {
     margin-top: 0;
 
 }
-
 
 .sobre-cima .direita .texto p {
     width: 100%;
@@ -315,10 +314,10 @@ a {
 
 
 .sobre-baixo {
+    margin: 10%;
     margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
     flex: 100%;
+
 }
 
 .sobre-baixo .detalhes .detalhes-card {
@@ -372,3 +371,122 @@ a {
     width: 100%;
     float: left;
 }
+
+.seccao2{
+    border: 1px solid red;
+    background: #f8f9fa;
+}
+
+.projectos{
+    position: relative;
+    margin: 10%;
+    margin-top: 200px;
+    
+}
+
+.projectos .projectos-cima .projectos-texto h4{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+ 
+}
+
+.projectos .projectos-cima .projectos-texto h4 .bg{
+    font-size: 150px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    position: absolute;
+    top: 0px;
+    left: -7px;
+    opacity: 0.1;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.projectos-baixo{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+
+}
+
+.projectos-card{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+    margin-top: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+ 
+}
+
+.projectos-baixo #ca2{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+.projectos-card .projectos-card-img{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.projectos-card .projectos-card-img img{
+    width: 100%;
+    height: 30vh;
+    vertical-align: middle;
+   
+}
+
+.projectos-card .projectos-card-img img:hover{
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+
+.projectos-card .projectos-card-texto{
+
+    width: 100%;
+    padding: 5%;
+}
+
+
+.projectos-card .projectos-card-texto .descricao h4{
+
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 10%;
+    margin-top: 20%;
+
+}
+
+.projectos-card .projectos-card-texto .descricao{
+    position: relative;
+}
+
+.projectos-card .projectos-card-texto .descricao h4 .by{
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: inline-block;
+    font-weight: 400;
+    font-style: italic;
+    color: #767676;
+    margin-top: 0;
+    font-size: 13px;
+    word-wrap: break-word;
+
+}
+
+
+
+
+
