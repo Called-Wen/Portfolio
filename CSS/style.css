@@ -409,6 +409,7 @@ a {
     align-items: center;
     justify-content: center;
     flex: 100%;
+    padding-bottom: 10%;
 
 }
 
@@ -484,6 +485,20 @@ a {
     word-wrap: break-word;
 
 }
+
+.rodape{
+    width: 100%;
+    height: 200px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+.rodape .r-detalhes{
+    height: 130px;
+
+}
+
 
 
 
