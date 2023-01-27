@@ -76,7 +76,6 @@ a {
 }
 
 
-
 .menu #btnBaixarcv:hover {
     background: white;
     border: 3px solid black;
@@ -86,7 +85,11 @@ a {
 }
 
 .sm {
+
     display: flex;
+    margin-left: 5px;
+    margin-top: 5%;
+
 
 }
 
@@ -94,10 +97,16 @@ a {
     display: inline-block;
     padding: 20px;
     margin: 10px;
-    background: white;
     color: #000;
     border-radius: 10px;
     transition: 0.7s;
+    text-decoration: none;
+    word-spacing: 2px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 2%;
+    border: 1px solid black;
+    background: white;
 
 
 }
@@ -110,8 +119,9 @@ a {
     color: red;
 }
 
-.texto .sm #github:hover {
-    color: black;
+
+.texto .sm #git:hover {
+    color: white;
 }
 
 
@@ -123,7 +133,7 @@ a {
     max-width: 150px;
     display: block;
     margin-top: 12%;
-    margin-left: 35px;
+    margin-left: 25px;
 
 }
 
@@ -133,13 +143,14 @@ a {
     text-decoration: none;
     color: black;
     text-align: center;
+    transition: 0.7s linear;
 }
 
 .btnContacto a:hover {
     text-align: center;
     border: 2px solid black;
     color: white;
-    background: #c2ccd1;
+    background-image: linear-gradient(90deg, white, #c2ccd1, #c2ccd1, white)
 
 }
 
@@ -164,7 +175,8 @@ a {
     width: 70%;
     float: right;
     min-width: 600px;
-    min-height: 557px;
+    min-height: 555px;
+
 }
 
 .cabecalho .background .texto {
@@ -198,10 +210,12 @@ a {
 }
 
 .seccao1 {
+
     width: 100%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -373,14 +387,14 @@ a {
 }
 
 .seccao2{
-    background: #f8f9fa;
+    /* background: whitesmoke; */
+    padding-top: 10%;
 }
 
 .projectos{
     position: relative;
     margin: 10%;
-    margin-top: 200px;
-    
+ 
 }
 
 .projectos .projectos-cima .projectos-texto h4{
@@ -492,13 +506,49 @@ a {
     background: #000;
     color: white;
     text-align: center;
+    
 }
 
 .rodape .r-detalhes{
     height: 130px;
+    flex: 100%;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.r-detalhes-card{
+    display: inline-block;
+    width: 24%;
+    word-wrap: break-word;
+    vertical-align: top;    
+    
+}
+
+.r-detalhes #r-card1{
+    float: left;
 
 }
 
+.r-detalhes #especial{
+float: right;
+}
+
+.r-detalhes #especial a{
+    color: white;
+    text-decoration: none;
+    word-spacing: 2px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.r-detalhes #especial p{
+    text-align: right;
+}
+
+.r-detalhes-card p{
+    text-align: left;
+}
 
 
 
