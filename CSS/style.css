@@ -216,7 +216,6 @@ a {
     display: flex;
     flex-direction: column;
     
-
 }
 
 .sobre-cima {
@@ -305,6 +304,13 @@ a {
 
 }
 
+.sobre-cima .esquerda .citacao{
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #000;
+}
+
 .sobre-cima .direita .btnSobre a {
     display: inline-block;
     text-decoration: none;
@@ -388,12 +394,15 @@ a {
 
 .seccao2{
     /* background: whitesmoke; */
-    padding-top: 10%;
+   
 }
 
 .projectos{
     position: relative;
-    margin: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
  
 }
 
@@ -433,7 +442,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
  
 }
