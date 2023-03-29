@@ -305,8 +305,10 @@ a {
 }
 
 .sobre-cima .esquerda .citacao{
+    text-align: center;
     font-family: 'Mulish', sans-serif;
     font-style: italic;
+    font-weight: lighter;
     font-size: 13px;
     color: #000;
 }
@@ -557,6 +559,56 @@ float: right;
 
 .r-detalhes-card p{
     text-align: left;
+}
+
+.seccao3{
+    margin: 10%;
+    margin-top: 5%;
+
+    
+
+}
+
+.seccao3 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    flex-flow: column nowrap;
+}
+
+.seccao3 form input[type="text"], .seccao3 form input[type="email"]{
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.seccao3 form textarea{
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    width: 100%;
+    
+}
+
+.seccao3 form button{
+    font-style: italic;
+    background: #000;
+    color: #c2ccd1;
+    padding: 10px;
+    border: solid 1px white;
+    margin: 3%;
+    
+    
+}
+
+.seccao3 form button:hover{
+    opacity: 0.9;
+
 }
 
 
