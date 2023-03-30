@@ -1034,6 +1034,32 @@ float: right;
         text-align: center;
     }
 
+    .rodape{
+        min-height: 65vh;
+    }
+
+    .r-detalhes{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+
+    }
+
+    .r-detalhes .r-detalhes-card {
+        text-align: center;
+
+    }
+
+    .r-detalhes #especial{
+        float: right;
+       
+    }
+
+    .r-detalhes #especial p{
+        text-align: left;
+        
+    }
+
 
 }
 
