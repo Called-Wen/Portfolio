@@ -377,7 +377,7 @@ a {
     hyphens: auto;
 }
 
-.detalhes-card .detalhes-texto p {
+.detalhes-card .detalhes-texto p, .seccao3 p {
     color: #767676;
     font-style: italic;
     font-size: 15px;
@@ -385,6 +385,12 @@ a {
     letter-spacing: .2px;
     font-weight: 400;
 
+
+}
+
+.seccao3 p{
+    margin-top: 8vh;
+    margin-bottom: 6vh;
 
 }
 
