@@ -11,7 +11,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="/img/icons/favicon.ico">
-    <title>Wen-Page</title>
+    <title>Portólio Wellington Macie</title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 
@@ -22,19 +22,30 @@
             <img style="max-width: 75px;" src="/img/img-Logo/apple-touch-icon.png" alt="">
 
         </div>
-        <div class="menu">
+        <div class="menu" onclick="menuEstado(this)">
+<div class="bars">
+    
+</div>
+            <span class="bar1 bar"></span>
+            <span class="bar2 bar"></span>
+            <span class="bar3 bar"></span>
 
-            <a href="#" class="link">Início</a>
-            <a href="#" class="link">Sobre</a>
-            <a href="#" class="link">Projectos</a>
-            <a href="#" class="link">Contacto</a>
-            <a id="btnBaixarcv" href="#" class="link">Baixar CV</a>
+            <div class="dropdown-content">
+                <a href="#div-inicio" class="link">Início</a>
+                <a href="#div-sobre-cima" class="link">Sobre</a>
+                <a href="#div-projectos" class="link">Projectos</a>
+                <a href="#div-contacto" class="link">Contacto</a>
+                <a id="btnBaixarcv" target="_blank"
+                    href="https://drive.google.com/file/d/13jB36nuHMQWG97YiOw5ZXQbIkRe_ZJJ5/view?usp=share_link"
+                    class="link">Baixar CV</a>        
+            </div>
+
 
         </div>
     </nav>
 
     <header class="cabecalho">
-        <div class="inicio">
+        <div id="div-inicio" class="inicio">
             <div class="background">
                 <div class="img">
                     <img src="/background/bordM.jpg" alt="">
@@ -50,11 +61,11 @@
                     </div>
 
                     <div class="sm">
-                        <a id="google" href="#" class="fab fa-google"></a>
+                        <a id="google" href="https://mail.google.com/" target="_blank" class="fab fa-google-plus-g"></a>
 
-                        <a id="git" href="#" class="fab fa-github"></a>
+                        <a id="git" href="https://github.com/Called-Wen" target="_blank" class="fab fa-github"></a>
 
-                        <a id="whatsapp" href="#" class="fab fa-whatsapp"></a>
+                        <a id="whatsapp" href="https://wa.me/+258848677368" target="_blank" class="fab fa-whatsapp"></a>
                     </div>
 
                     <div class="btnContacto"> <a href="#">Contacta-me</a></div>
@@ -66,94 +77,114 @@
     </header>
 
     <section class="seccao1">
-        <div class="sobre-cima">
-            <div class="esquerda">
-                <img src="/img/img-Perf/overpower.jpg" alt="perfil Wen Macie">
+        <div id="div-sobre" class="sobre">
+            <div id="div-sobre-cima" class="sobre-cima">
+                <div class="esquerda">
+                    <figure>
+                        <img src="/img/img-Perf/overpower.jpg" alt="perfil Wen Macie">
+
+                        <figcaption class="citacao">
+                            <q>Qué miras Bobo??</q>
+                            &nbsp;
+                            Lionel Messi 2k22
+
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+                <div class="direita">
+                    <div class="nome">
+                        <h4>
+
+                            Wellington M. Macie
+                            <span class="bg">SOBRE</span>
+
+                        </h4>
+                        <span class="profissao">Desenvolvedor de Software's</span>
+
+                    </div>
+                    <div class="texto">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam iusto hic soluta fuga
+                            voluptatibus eligendi sapiente totam dicta quam blanditiis est aliquid ad consequuntur nam,
+                            illo
+                            deleniti tenetur incidunt?</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aspernatur distinctio
+                            molestias error ut culpa? Nostrum inventore, dolor delectus nisi ex incidunt commodi
+                            eligendi
+                            minima ea, odio iusto atque!</p>
+
+                    </div>
+
+                    <div class="btnSobre">
+                        <a href="#">Saber Mais</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sobre-baixo">
+
+                <div class="detalhes">
+                    <div id="c1" class="detalhes-card">
+                        <div class="detalhes-ico">
+                            <img src="/img/icons/icons8-html-file-96.png" alt="">
+                        </div>
+                        <div class="detalhes-texto">
+                            <h4 class="detalhes-skills">Desenvolvimento Web</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium
+                                temporibus
+                                quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
+                                voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
+
+                        </div>
+
+                    </div>
+                    <div id="c2" class="detalhes-card c1">
+                        <div class="detalhes-ico">
+                            <img src="/img/icons/cloud-intelligence.png" alt="">
+                        </div>
+                        <div class="detalhes-texto">
+                            <h4 class="detalhes-skills">Conceitos BlockChain</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium
+                                temporibus
+                                quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
+                                voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
+
+                        </div>
+
+                    </div>
+                    <div id="c3" class="detalhes-card">
+                        <div class="detalhes-ico">
+                            <img src="/img/icons/ideia.png" alt="">
+
+                        </div>
+                        <div class="detalhes-texto">
+
+                            <h4 class="detalhes-skills">Projectos Criativos</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium
+                                temporibus
+                                quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
+                                voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
-            <div class="direita">
-                <div class="nome">
-                    <h4>
 
-                        Wellington M. Macie
-                        <span class="bg">SOBRE</span>
-
-                    </h4>
-                    <span class="profissao">Desenvolvedor de Software's</span>
-
-                </div>
-                <div class="texto">
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam iusto hic soluta fuga
-                        voluptatibus eligendi sapiente totam dicta quam blanditiis est aliquid ad consequuntur nam, illo
-                        deleniti tenetur incidunt?</p>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aspernatur distinctio
-                        molestias error ut culpa? Nostrum inventore, dolor delectus nisi ex incidunt commodi eligendi
-                        minima ea, odio iusto atque!</p>
-
-                </div>
-
-                <div class="btnSobre">
-                    <a href="#">Saber Mais</a>
-                </div>
-
-            </div>
         </div>
 
 
-        <div class="sobre-baixo">
 
-            <div class="detalhes">
-                <div id="c1" class="detalhes-card">
-                    <div class="detalhes-ico">
-                        <img src="/img/icons/icons8-html-file-96.png" alt="">
-                    </div>
-                    <div class="detalhes-texto">
-                        <h4 class="detalhes-skills">Desenvolvimento Web</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium temporibus
-                            quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
-                            voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
 
-                    </div>
-
-                </div>
-                <div id="c2" class="detalhes-card c1">
-                    <div class="detalhes-ico">
-                        <img src="/img/icons/cloud-intelligence.png" alt="">
-                    </div>
-                    <div class="detalhes-texto">
-                        <h4 class="detalhes-skills">Desenvolvimento Desktop</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium temporibus
-                            quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
-                            voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
-
-                    </div>
-
-                </div>
-                <div id="c3" class="detalhes-card">
-                    <div class="detalhes-ico">
-                        <img src="/img/icons/ideia.png" alt="">
-
-                    </div>
-                    <div class="detalhes-texto">
-
-                        <h4 class="detalhes-skills">Projectos Criativos</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ducimus laudantium temporibus
-                            quos, laboriosam consequatur, sint eligendi consectetur, cum odit cupiditate optio
-                            voluptatibus at. Atque doloribus consequatur veniam architecto perspiciatis...</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
     </section>
 
     <section class="seccao2">
-        <div class="projectos">
+        <div id="div-projectos" class="projectos">
             <div class="projectos-cima">
                 <div class="projectos-texto">
                     <h4>Projectos em Destaque
@@ -166,15 +197,15 @@
             </div>
             <div class="projectos-baixo">
                 <div class="projectos-card">
-                   
+
                     <div class="projectos-card-img">
-                        <img src="/img/img-Projectos/hands.jpg" alt="">
+                        <img src="/img/img-Projectos/tecladoVerde.jpg" alt="">
 
                     </div>
                     <div class="projectos-card-texto">
                         <div class="descricao">
                             <h4>
-                                Desenvolvimento Criativo
+                                Portifólio Profissional
                                 <span class="by">By Wen / 26 Jan 2023</span>
                             </h4>
 
@@ -191,8 +222,8 @@
                     <div class="projectos-card-texto">
                         <div class="descricao">
                             <h4>
-                                Desenvolvimento Criativos
-                                <span class="by">By Wen / 26 Jan 2023</span>
+                                DApps e SmartContracts
+                                <span class="by">By Wen / 14 Mar 2023</span>
                             </h4>
 
                         </div>
@@ -209,8 +240,8 @@
                     <div class="projectos-card-texto">
                         <div class="descricao">
                             <h4>
-                                Desenvolvimento Criativos
-                                <span class="by">By Wen / 26 Jan 2023</span>
+                                Cyber Segurança Web (CTF)
+                                <span class="by">By Wen / 06 Mar 2023</span>
                             </h4>
 
                         </div>
@@ -223,54 +254,80 @@
         </div>
     </section>
 
+    <section class="seccao3">
+        <div id="div-contacto" class="contacto">
+            <form action="enviar.php" method="post">
+                <h2>
+                    Entrar em Contacto
+                </h2>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+        </div>
+    </section>
+
     <footer class="rodape">
-        <div class="r-detalhes">
-            <div id="r-card1"  class="r-detalhes-card">
-            <p>
-                Called-Wen
-            </p>
-            <p>PORTFOLIO TEMPLATE</p>    
+        <div class="rodape-container">
+            <div class="r-detalhes">
+                <div id="r-card1" class="r-detalhes-card">
+                    <p>
+                        Wellington M. Macie
+                    </p>
+                    <p>PORTFOLIO PROFISSIONAL</p>
+                </div>
+                <div class="r-detalhes-card">
+                    <p>
+                        Nkobe Q5,
+                    </p>
+                    <p>
+                        1112 Nkobe-Machava Maputo Province,Mz
+                    </p>
+                </div>
+                <div class="r-detalhes-card">
+                    <p>
+                        wen.macie@gmailcom
+                    </p>
+                    <p>
+                        +258848677368
+                    </p>
+
+                </div>
+                <div id="especial" class="r-detalhes-card">
+                    <p>
+                        <a href="" class="fab fa-facebook"></a>
+
+                        <a href="https://github.com/Called-Wen" class="fab fa-github"></a>
+
+                        <a href="" class="fab fa-google"></a>
+
+                        <a href="" class="fab fa-youtube"></a>
+
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+                    </p>
+                </div>
+
             </div>
-            <div class="r-detalhes-card">
-                <p>
-                    Nkobe Q5,
-                </p>
-                <p>
-                    1112 Nkobe-Machava  Maputo Province,Mz
-                </p>
+            <div class="direitos">
+                <h6>
+                    ©By Wen Macie for PW 2k23
+                </h6>
             </div>
-            <div class="r-detalhes-card">
-                <p>
-                    wen.macie@gmailcom
-                </p>
-                <p>
-                    +258848677368
-                </p>
-                
-            </div>
-            <div id="especial" class="r-detalhes-card">
-                <p>
-                    <a href="" class="fab fa-facebook"></a>
-
-                    <a href="" class="fab fa-github"></a>
-
-                    <a href="" class="fab fa-google"></a>
-
-                    <a href="" class="fab fa-youtube"></a>
-
-                    <a href="" class="fab fa-instagram"></a>
-
-                    <a href="" class="fab fa-linkedin"></a>
-                </p>
-            </div>
-
         </div>
-        <div class="direitos">
-            <h6>
-                ©By Wen SKY Dvx Company 2023
-            </h6>
-        </div>
+
     </footer>
+
+    <script>
+        function menuEstado(x) {
+            x.classList.toggle("mudar");
+        }
+    </script>
 
 </body>
 

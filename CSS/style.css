@@ -38,8 +38,7 @@ a {
 
 .logotipo {
     flex: 10%;
-    text-align: left;
-    margin-left: 10%;
+    margin-left: 10%;    
 
 }
 
@@ -83,6 +82,7 @@ a {
 
 
 }
+
 
 .sm {
 
@@ -158,6 +158,7 @@ a {
 .inicio {
     /* margin-top: 65px; */
     margin-top: 100px;
+    
 }
 
 .cabecalho {
@@ -184,6 +185,7 @@ a {
     position: absolute;
     top: 35%;
     left: 10%;
+    user-select: none;
 
 }
 
@@ -211,13 +213,11 @@ a {
 }
 
 .seccao1 {
-
     width: 100%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     
-
 }
 
 .sobre-cima {
@@ -306,6 +306,15 @@ a {
 
 }
 
+.sobre-cima .esquerda .citacao{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 13px;
+    color: #000;
+}
+
 .sobre-cima .direita .btnSobre a {
     display: inline-block;
     text-decoration: none;
@@ -387,14 +396,13 @@ a {
     float: left;
 }
 
-.seccao2{
-    /* background: whitesmoke; */
-    padding-top: 10%;
-}
 
 .projectos{
     position: relative;
-    margin: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
  
 }
 
@@ -434,7 +442,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
  
 }
@@ -501,12 +509,20 @@ a {
 
 }
 
-.rodape{
-    width: 100%;
-    height: 200px;
-    background: #000;
+footer{
+    background-color: #000;
     color: white;
+    position: absolute;
+    padding: 20px 0;
+    width: 100%;
+    
+}
+
+.rodape-container{
+    max-width: 960px;
+    margin: 0 auto;
     text-align: center;
+
     
 }
 
@@ -551,7 +567,461 @@ float: right;
     text-align: left;
 }
 
+.seccao3{
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+
+}
+
+.seccao3 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    flex-flow: column nowrap;
+}
+
+.seccao3 form input[type="text"], .seccao3 form input[type="email"]{
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.seccao3 form textarea{
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    width: 100%;
+    
+}
+
+.seccao3 form button{
+    font-style: italic;
+    background: #000;
+    color: #c2ccd1;
+    padding: 10px;
+    border: solid 1px white;
+    margin: 3%;
+    
+    
+}
+
+.seccao3 form button:hover{
+    opacity: 0.9;
+
+}
 
 
 
+@media screen and (min-width: 576px) and (max-width: 768px){
+    
+    .navegador{
+        align-items: flex-start;
+
+    }
+
+
+    .cabecalho{
+        width: 96vw;
+        
+
+    }
+    .cabecalho {
+        display: flex;
+    
+    }
+    
+    .cabecalho .background .img {
+        flex: 30%;
+        position: relative;
+        z-index: -1;
+    
+    }
+    
+    .cabecalho .background .img img {
+        width: 70%;
+        float: right;
+        min-width: 94vw;
+        min-height: 88vh;
+        margin: 0% 0% 0% 3%;
+        /* border: solid 2px red; */
+    
+    }
+    
+    
+    
+    .nome h3 {
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+
+    .logotipo{
+        border: solid 1px red;
+
+    }
+
+    .menu {
+        flex: 75%;
+        text-align: center;
+        border: solid 1px red;
+        padding: 0px;
+    
+    }
+
+    .menu a {
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        width: 100%;
+    
+    }
+    
+    .menu #btnBaixarcv {
+       
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        
+        transition: 0.7s linear;
+    
+    }
+    
+    .menu a:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .menu #btnBaixarcv{
+        border: none;
+        border-radius: 0px;
+    
+    }
+    
+    
+    .menu #btnBaixarcv:hover {
+        background: white;
+        border-bottom: solid 3px black;
+        color: black;
+        padding: 2px;
+
+
+    
+    }
+
+
+
+    /**/
+    
+    
+    
+.bar {
+    width: 35px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .mudar .bar1 {
+    transform: translate(0, -1px) rotate(-45deg);
+  
+  }
+  
+  .mudar .bar2 {opacity: 0;}
+  
+  .mudar .bars{
+    padding: 20px;
+    
+  }
+
+
+  .mudar .bar3 {
+    transform: translate(0, -19px) rotate(45deg);
+  }
+
+  .mudar .dropdown-content{
+    display: block;
+    background: white;
+    
+  }
+
+
+  .bar{
+    display: block;
+  }
+
+.menu{
+  cursor: pointer;
+  
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+    
+}
+
+
+.menu span,.dropdown-content{
+  margin-top: 2px;
+  
+}
+  .dropdown-content{
+    display: none;
+
+  }
+
+  .dropdown-content a{
+    display: block;
+    text-decoration: none;
+    margin-top: 2px;
+
+  }
+
+    
+    /**/
+
+    .bg{
+        display: none;
+    }
+    
+    
+    
+}  
+
+
+@media screen and (max-width: 576px){
+    .navegador{
+        align-items: flex-start;
+        
+    }
+
+
+    .menu{
+        flex:0;
+    }
+
+
+    .menu a {
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        width: 100%;
+    
+    }
+    
+    .menu #btnBaixarcv {
+       
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        
+        transition: 0.7s linear;
+    
+    }
+    
+    .menu a:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .menu #btnBaixarcv{
+        border: none;
+        border-radius: 0px;
+    
+    }
+    
+    
+    .menu #btnBaixarcv:hover {
+        background: white;
+        border-bottom: solid 3px black;
+        color: black;
+        padding: 2px;
+
+    }
+
+
+
+
+    .bar {
+        width: 35px;
+        height: 3px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;        
+        display: block;
+      }
+      
+      .mudar .bar1 {
+        transform: translate(0, -1px) rotate(-45deg);
+      
+      }
+      
+      .mudar .bar2 {opacity: 0;}
+      
+      .mudar .bars{
+        padding: 20px;
+        
+      }
+    
+    
+      .mudar .bar3 {
+        transform: translate(0, -19px) rotate(45deg);
+      }
+    
+      .mudar .dropdown-content{
+        display: block;
+        background: white;
+        
+      }
+     
+    
+    .menu{
+      cursor: pointer;
+      
+      width: 98vw;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+        
+    }
+    
+    
+    .menu span,.dropdown-content{
+      margin-top: 2px;
+      
+    }
+
+
+      .dropdown-content{
+        display: none;
+    
+      }
+    
+      .dropdown-content a{
+        display: block;
+        text-decoration: none;
+        margin-top: 2px;
+    
+      }
+
+
+      .nome h3 {
+        font-size: 40px;
+        font-weight: 909;
+        letter-spacing: 1px;
+    }
+
+    .btnContacto {
+        display: none;
+
+    }
+
+    
+    .nome .apelido {
+        -webkit-text-stroke: 3px #000;
+        color: transparent;
+        margin-top: 30px;
+    }
+
+    .ocupacao{
+        display: inline-block;
+        word-wrap: break-word;
+        margin-top: 185px;
+    }
+    
+    .ocupacao h4 {
+        display: inline-block;
+        font-weight: 600;
+        font-style: italic;
+        color: #767676;
+        line-height: 0;
+        margin-bottom: 1%;
+
+    }
+
+    .cabecalho .background .img img {
+        width: 70%;
+        float: right;
+        min-width: 485px;
+        min-height: 555px;
+    
+    }
+
+    .sm{
+        text-align: center;
+        width: 96%;
+        display: block;
+        margin-top: 0px;
+    }
+    
+
+    .bg{
+        display: none;
+    }
+
+
+    .sobre-cima{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-cima .direita{
+        display: block;
+        width: 80vw;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .sobre-cima .direita .nome{
+        text-align: center;
+ 
+    }
+
+
+    .sobre-baixo .detalhes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .detalhes-card{
+        width: 90vw;
+    }
+
+    .sobre-baixo .detalhes .detalhes-card {
+        display: inline-block;
+        width: 90vw;
+        
+    }
+
+    .projectos-card{
+        min-width: 60vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .projectos-baixo{
+        flex-direction: column;
+        max-width: 80vw;
+
+    }
+
+    .projectos-texto{
+        text-align: center;
+    }
+
+
+}
 
