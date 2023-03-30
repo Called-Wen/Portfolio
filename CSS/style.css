@@ -342,11 +342,15 @@ a {
     margin-top: 100px;
     flex: 100%;
 
+
 }
+
 
 .sobre-baixo .detalhes .detalhes-card {
     display: inline-block;
     width: 30%;
+
+    
 }
 
 #c3 {
@@ -662,15 +666,9 @@ float: right;
         letter-spacing: 2px;
     }
 
-    .logotipo{
-        border: solid 1px red;
-
-    }
-
     .menu {
         flex: 75%;
         text-align: center;
-        border: solid 1px red;
         padding: 0px;
     
     }
@@ -933,7 +931,7 @@ float: right;
     .ocupacao{
         display: inline-block;
         word-wrap: break-word;
-        margin-top: 185px;
+        margin-top: 165px;
     }
     
     .ocupacao h4 {
@@ -983,7 +981,15 @@ float: right;
 
     .sobre-cima .direita .nome{
         text-align: center;
+
  
+    }
+
+    .sobre-cima .direita .profissao{
+
+        display: block;
+        
+
     }
 
 
