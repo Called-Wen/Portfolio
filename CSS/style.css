@@ -1018,7 +1018,7 @@ float: right;
     }
 
     .projectos-card{
-        min-width: 60vw;
+        width: 60vw;
         justify-content: center;
         align-items: center;
     }
@@ -1026,7 +1026,7 @@ float: right;
 
     .projectos-baixo{
         flex-direction: column;
-        max-width: 80vw;
+        width: 96vw;
 
     }
 
