@@ -240,13 +240,13 @@
                     <div class="projectos-card-texto">
                         <div class="descricao">
                             <h4>
-                                (CTF) Cyber Segurança Web 
+                                (CTF) Cyber Segurança Web
                                 <span class="by">By Wen / 26 Jan 2023</span>
                             </h4>
 
                         </div>
 
-               </div>
+                    </div>
 
                 </div>
 
@@ -261,16 +261,16 @@
                 Entrar em Contacto
             </h2>
 
-            <p >
+            <p>
                 Por favor, preencha o formulário nesta seção para entrar em contato comigo. Ou ligue entre 9:00 e 20:00
                 ET, de segunda a sexta-feira mais detalhes sobre contactos veja no rodapé.
             </p>
-            <form action="enviar.php" method="post">
+            <form onsubmit="obrigado()">
 
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="Email" required>
-                <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
-                <button type="submit">
+                <input type="text" placeholder="Nome" id="txtNome" required>
+                <input type="email" placeholder="Email" id="txtEmail" required>
+                <textarea name="Mensagem" id="txtArea" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                <button type="submit" >
                     Enviar Mensagem
                 </button>
 
@@ -329,6 +329,12 @@
         function menuEstado(x) {
             x.classList.toggle("mudar");
         }
+
+        function obrigado() {
+            alert("Obrigado por me contactar. Em breve irei lhe retornar!")
+        }
+
+
     </script>
 
 </body>

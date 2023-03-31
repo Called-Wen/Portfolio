@@ -638,20 +638,20 @@ float: right;
 
 
     .cabecalho{
-        width: 96vw;
-        margin-left: 1%;
+        width: 98vw;
+        margin: 0%;
+       
     }
 
     
     
     .cabecalho .background .img img {
         float: right;
-        min-width: 93vw;
+        min-width: 80vw;
         min-height: 88vh;
         margin: 0% 0% 0% 0%;
 
     }
-    
     
     
     .nome h3 {
@@ -940,10 +940,15 @@ float: right;
 
     .cabecalho .background .img img {
         width: 70%;
-        float: right;
-        min-width: 97vw;
+        min-width: 100vw;
         min-height: 555px;
+        margin:0%;
     
+    }
+
+    .cabecalho{
+        width: 100vw;
+
     }
 
     .sm{
@@ -1058,6 +1063,8 @@ float: right;
         margin-bottom: 10px;
         margin-right: 10px;
     }
+
+    
 
 
 }
