@@ -1060,6 +1060,11 @@ float: right;
         
     }
 
+    .rodape-container{
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
